@@ -61,7 +61,7 @@
 // Enable faster gradient rotations?
 // Enabling this saves about 10% on execution time,
 // but the function will not run faster for rotation = 0.
-//#define FASTROTATION
+#define FASTROTATION
 
 #include "NoiseCommon.hlsl"
 
@@ -208,7 +208,7 @@ float SimplexNoise(float3 x, out float3 gradient, out float3 dg, out float3 dg2,
 
 	float4 Ct = cos(theta);
 	float4 St = sin(theta);
-	float4 sz_prime = sqrt(1.0 - sz * sz); // s is a point on a unit fib-sphere
+	float4 sz_prime = sqrt(max(0.0, 1.0 - sz * sz)); // s is a point on a unit fib-sphere
 
 	float4 gx, gy, gz;
 

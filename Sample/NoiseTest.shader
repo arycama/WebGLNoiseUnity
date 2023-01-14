@@ -19,6 +19,7 @@ Shader "Hidden/NoiseTest"
             HLSLPROGRAM
             #pragma vertex Vertex
             #pragma fragment Fragment
+
             #include "NoiseTest.hlsl"
             ENDHLSL
         }
