@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebGLNoiseUnity", "..\..\WebGLNoiseUnity.csproj", "{D15B27E2-5E39-63A9-3CCD-3171963EE957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebGLNoiseUnity.Git", "WebGLNoiseUnity.Git.csproj", "{C6C748BD-C35D-41D1-A09D-215DCD7C1813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D15B27E2-5E39-63A9-3CCD-3171963EE957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D15B27E2-5E39-63A9-3CCD-3171963EE957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D15B27E2-5E39-63A9-3CCD-3171963EE957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C748BD-C35D-41D1-A09D-215DCD7C1813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C748BD-C35D-41D1-A09D-215DCD7C1813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C748BD-C35D-41D1-A09D-215DCD7C1813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C748BD-C35D-41D1-A09D-215DCD7C1813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
